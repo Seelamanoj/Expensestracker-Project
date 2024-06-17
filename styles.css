@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 400px;
+    max-width: 90%;
+    background: #cccfff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.expense-form {
+    margin-bottom: 20px;
+}
+
+.expense-form input {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.expense-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #4facfe;
+    color: white;
+    cursor: pointer;
+}
+
+.expense-form button:hover {
+    background: #00f2fe;
+}
+
+#expenseList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#expenseList li {
+    background: #5c8ab9;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
